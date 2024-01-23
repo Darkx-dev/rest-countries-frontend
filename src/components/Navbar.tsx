@@ -11,7 +11,7 @@ export default function Navbar() {
     else setMode(true);
   };
   return (
-    <div className="flex justify-between px-20 py-3 items-center shadow" id="nav">
+    <div className="flex justify-between px-20 max-sm:px-3 py-3 items-center shadow" id="nav">
       <h1 className="text-2xl font-bold">Where in the world?</h1>
       <h4
         className="flex gap-2 items-center cursor-pointer"
